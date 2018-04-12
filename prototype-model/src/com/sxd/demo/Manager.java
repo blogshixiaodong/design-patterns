@@ -11,6 +11,7 @@ public class Manager {
     private HashMap<String, Object> showCase = new HashMap<>();
 
     public void register(String name, Product product) {
+        System.out.println(product);
         showCase.put(name, product);
     }
 
